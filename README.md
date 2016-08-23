@@ -1,2 +1,2 @@
-# UdiaBoolean
-Udia - Boolean
+# Udia
+boolean
