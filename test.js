@@ -14,7 +14,7 @@ test(function(t) {
   var maybe = udia['boolean'].m();            // What is udia?
 
   if (maybe === udia['boolean'].t()) {        // Is udia equal to udia true?
-    t.equal(maybe, true);                     //  - If so, is udia equal to true?
+    t.equal(maybe, true);                     // - If so, is udia equal to true?
   } else if (maybe === udia['boolean'].f()) { // Otherwise is udia equal to udia false?
     t.equal(maybe, false);                    // - If so, is udia equal to false?
   } else {
