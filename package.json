@@ -1,10 +1,10 @@
 {
   "name": "udia-boolean",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "boolean",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape test.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/udia-software/udia-boolean/issues"
   },
-  "homepage": "https://github.com/udia-software/udia-boolean#readme"
+  "homepage": "https://github.com/udia-software/udia-boolean#readme",
+  "devDependencies": {
+    "tape": "^4.6.0"
+  }
 }
