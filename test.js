@@ -6,7 +6,7 @@ var test = require('tape');
 test(function(t) {
   udia['boolean'] = require('./');
 
-  t.plan(3);  // There will be three tests.
+  t.plan(3);                                  // There will be three tests.
 
   t.equal(udia['boolean'].t(), true);         // Is udia true equal to true?
   t.equal(udia['boolean'].f(), false);        // Is udia false equal to false?
